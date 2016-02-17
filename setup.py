@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='kagiso_sitemap',
-    version='0.0.5',
+    version='0.0.6',
     author='Kagiso Media',
     author_email='development@kagiso.io',
     description='Kagiso Sitemap',

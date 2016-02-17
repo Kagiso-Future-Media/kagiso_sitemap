@@ -4,7 +4,7 @@ A paged sitemap for Wagtail.
 ## Installation
 `pip install kagiso_sitemap`
 
-Add `kagiso_sitemap` to your `INSTALLED_APPS` in your `settings.py`.
+Add `django.contrib.sitemaps` and `kagiso_sitemap` to your `INSTALLED_APPS` in your `settings.py`.
 
 Add the following to `urls.py`:
 ```py
