@@ -11,6 +11,6 @@ urlpatterns = patterns(
     url(r'^sitemap-(?P<section>.+)\.xml$',
         sitemap, {
             'sitemaps': sitemaps,
-            'template_name': 'kagiso_sitemap.xml'
+            'template_name': 'kagiso_sitemap/kagiso_sitemap.xml'
         }),
 )
