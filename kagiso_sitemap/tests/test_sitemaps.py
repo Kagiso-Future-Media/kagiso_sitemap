@@ -30,4 +30,4 @@ class KagisoSitemapTestCase(TestCase):
 
         result = site_map.location(home_page)
 
-        assert result == ' ' + home_page.url
+        assert result == ' ' + home_page.full_url

@@ -27,4 +27,4 @@ class KagisoSitemap(Sitemap):
         # Simply rely on Wagtail for correct full url,
         # and insert space as delimiter between urls
         # so first url can be stripped out in custom template
-        return ' ' + obj.url
+        return ' ' + obj.full_url
