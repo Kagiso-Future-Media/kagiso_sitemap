@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='kagiso_sitemap',
-    version='2.0.0',
+    version='3.0.0',
     author='Kagiso Media',
     author_email='development@kagiso.io',
     description='Kagiso Sitemap',
@@ -11,6 +11,6 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'wagtail>=1.6.3',
+        'wagtail>=1.8.0',
     ]
 )
